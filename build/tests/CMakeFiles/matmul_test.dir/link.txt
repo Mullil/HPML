@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/matmul_test.dir/link.d CMakeFiles/matmul_test.dir/matmul_tests.cpp.o -o matmul_test  ../src/libmatmul.a /usr/lib/libgtest_main.so.1.17.0 -lpthread /usr/lib/libgtest.so.1.17.0
