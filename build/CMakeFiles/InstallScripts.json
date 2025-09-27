@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/eetu/HPML/build/cmake_install.cmake",
+		"/home/eetu/HPML/build/src/cmake_install.cmake",
+		"/home/eetu/HPML/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
