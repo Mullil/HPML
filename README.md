@@ -10,6 +10,8 @@ A repository for machine learning and related algorithms in C++
 
 - Google Test
 
+- Google Benchmark
+
 ## Build
 
 To build run:
@@ -28,10 +30,16 @@ To run tests run:
 ./tests/matmul_test
 ```
 
+To run benchmarks run:
+
+```Bash
+./benchmarks/matmul_bench
+```
+
 ## Todos
 
 Matrix multiplication:
 
 - Thorough tests
-- Benchmarks for baseline solution
 - Optimizing for parallelization
+- Benchmarks for non-square matrices
