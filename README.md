@@ -43,3 +43,12 @@ Matrix multiplication:
 - Thorough tests
 - Optimizing for parallelization
 - Benchmarks for non-square matrices
+
+Future algorithms:
+
+- SVD
+- PCA
+- Linear regression
+- Logistic regression
+- K-means
+- Feedforward neural network
