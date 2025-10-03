@@ -10,11 +10,13 @@ void fill_matrix_random(Matrix& M, std::mt19937& gen, std::uniform_real_distribu
     }
 }
 
-Matrix create_matrix(size_t N, std::vector<double>& storage) {
-    storage.resize(N * N);
-    return Matrix{N, N, storage.data()};
+Matrix create_matrix(size_t N, std::vector<double>& X) {
+    X.resize(N * N);
+    return Matrix{N, N, X.data()};
 }
 
+/** Creates two square matrices with given dimensions NxN
+ and random double-precision floating point numbers **/
 void BM_MatMul(benchmark::State& state, size_t N) {
     // Random generator with seed 22
     std::mt19937 gen(22);
