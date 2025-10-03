@@ -1,7 +1,7 @@
 #include <benchmark/benchmark.h>
 #include <vector>
 #include <random>
-#include "../src/matmul.hpp"
+#include "../../src/matmul.hpp"
 
 
 void fill_matrix_random(Matrix& M, std::mt19937& gen, std::uniform_real_distribution<double>& dist) {
