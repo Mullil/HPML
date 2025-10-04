@@ -39,6 +39,7 @@ void BM_MatMul(benchmark::State& state, size_t N) {
 BENCHMARK_CAPTURE(BM_MatMul, Small, 100)->Unit(benchmark::kSecond);
 BENCHMARK_CAPTURE(BM_MatMul, Medium, 1000)->Unit(benchmark::kSecond);
 BENCHMARK_CAPTURE(BM_MatMul, MediumLarge, 3000)->Unit(benchmark::kSecond);
+BENCHMARK_CAPTURE(BM_MatMul, MediumLarge, 5000)->Unit(benchmark::kSecond);
 
 BENCHMARK_MAIN();
 
