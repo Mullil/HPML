@@ -17,9 +17,9 @@ Without optimization flags / with -O3 -march=native -fopenmp
 
 [source code](https://github.com/Mullil/HPML/blob/v1.0.1/src/matmul.cpp)
 
-Without optimization flags / with -O3 -march=native -fopenmp
-
 Intel i5-8250U
+
+Without optimization flags / with -O3 -march=native -fopenmp
 
 - 100x100: 0.005 s / 0.000 s
 
