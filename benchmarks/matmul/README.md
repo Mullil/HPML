@@ -15,10 +15,14 @@ Without optimization flags / with -O3 -march=native -fopenmp
 
 ## Added tiling (tile size=64) and contiguous memory access
 
+Without optimization flags / with -O3 -march=native -fopenmp
+
 Intel i5-8250U
 
-- 100x100: 0.005 s
+- 100x100: 0.005 s / 0.000 s
 
-- 1000x1000: 5.24 s
+- 1000x1000: 5.24 s / 0.221 s
 
-- 3000x3000: 185 s
+- 3000x3000: 185 s / 10.2 s
+
+- 5000x5000: - / 45.4 s
