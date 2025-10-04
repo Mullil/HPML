@@ -11,7 +11,7 @@ Intel i5-8250U
 - 3000x3000: 434 s
 
 
-## Added tiling (tile size=64) and contiguous memory access
+## Added tiling (tile size = 64x64) and contiguous memory access
 
 Intel i5-8250U
 
@@ -20,3 +20,13 @@ Intel i5-8250U
 - 1000x1000: 5.24 s
 
 - 3000x3000: 185 s
+
+## Move from single-level tiling to two-level tiling (macro-tile size = 128x128, micro-tile size = 4x4)
+
+Intel i5-8250U
+
+- 100x100: 0.003 s
+
+- 1000x1000: 3.48 s
+
+- 3000x3000: 138 s
