@@ -15,20 +15,16 @@ Without optimization flags / with -O3 -march=native -fopenmp
 
 ## Added tiling (tile size = 64x64) and contiguous memory access
 
-Intel i5-8250U
-
-- 100x100: 0.005 s
-
-- 1000x1000: 5.24 s
-
-- 3000x3000: 185 s
-
-## Move from single-level tiling to two-level tiling (macro-tile size = 128x128, micro-tile size = 4x4)
+[source code](https://github.com/Mullil/HPML/blob/v1.0.1/src/matmul.cpp)
 
 Intel i5-8250U
 
-- 100x100: 0.003 s
+Without optimization flags / with -O3 -march=native -fopenmp
 
-- 1000x1000: 3.48 s
+- 100x100: 0.005 s / 0.000 s
 
-- 3000x3000: 138 s
+- 1000x1000: 5.24 s / 0.221 s
+
+- 3000x3000: 185 s / 10.2 s
+
+- 5000x5000: - / 45.4 s
