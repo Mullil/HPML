@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <vector>
 
-#include "../src/matmul.hpp"
+#include "../src/linalg/matmul.hpp"
 
 
 inline void EXPECT_MATRIX_NEAR(const Matrix& M, const std::vector<double>& expected, double tolerance = 1e-9) {
@@ -97,7 +97,7 @@ TEST(MatmulLarge, Random1000x500_times_500x200) {
     }
 
     for (int i = 0; i < 500 * 200; i++) {
-        A_data[i] = rand() % 10;
+        B_data[i] = rand() % 10;
     }
 
     Matrix A{M, K, A_data.data()};
