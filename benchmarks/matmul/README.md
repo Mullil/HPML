@@ -13,7 +13,7 @@ Without optimization flags / with -O3 -march=native -fopenmp
 - 3000x3000: 434 s / 177 s
 
 
-## Added tiling (tile size=64) and contiguous memory access
+## Added tiling (tile size = 64x64) and contiguous memory access
 
 [source code](https://github.com/Mullil/HPML/blob/v1.0.1/src/matmul.cpp)
 
